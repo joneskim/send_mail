@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-#l-hm)=416oj&-*bt(-ez!t#^b31x3byi#uk+!im!3jwa*n3*s
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','https://koalamail.herokuapp.com/']
+ALLOWED_HOSTS = ['https://koalamail.herokuapp.com/']
 
 
 # Application definition
