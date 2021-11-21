@@ -1,1 +1,1 @@
-web: gunicorn codeproject.wsgi 
+web: python manage.py run_gunicorn
