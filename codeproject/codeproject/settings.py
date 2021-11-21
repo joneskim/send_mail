@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-#l-hm)=416oj&-*bt(-ez!t#^b31x3byi#uk+!im!3jwa*n3*s
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://koalamail.herokuapp.com/']
+ALLOWED_HOSTS = ['koalamail.herokuapp.com/']
 
 
 # Application definition
@@ -45,7 +45,6 @@ MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
 
     'whitenoise.middleware.WhiteNoiseMiddleware',
-    
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
