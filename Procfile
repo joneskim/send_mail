@@ -1,1 +1,1 @@
-web: gunicorn emailservice.wsgi:application --log-file - 
+web: gunicorn codeproject.wsgi:application --log-file - 
